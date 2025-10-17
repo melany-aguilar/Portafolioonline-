@@ -8,7 +8,34 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  
+  <script>
+                
+            function checkAcceptation() {
+              if (!confirm("Presiona aceptar para ingresar, y para volver presiona cancelar"))
+              history.go(-1);
+              return " "
+            }
+          checkAcceptation();
+              
+          </script> 
+          <script languaje="JavaScript">
+
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new Array("Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado")
+var montharray=new Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre")
+document.write("<small><font color='000000' face='Arial'>"+dayarray[day]+" "+daym+" de "+montharray[month]+" de "+year+"</font></small>")
+
+</script>
+    
+        
 <div class="container mt-4">
     <div class="row"> 
       <div class="col-md-4">
@@ -144,7 +171,17 @@
   </button>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+            alert("Bienvenidos c:");
+          </script>
+          <script language="JavaScript" type="text/javascript">
 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+
+
+
+</script> 
 </body>
 </html>
