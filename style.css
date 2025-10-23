@@ -1,0 +1,32 @@
+.btn1{
+    background-color: rgb(125, 28, 154);
+    width: 25%;
+    margin: 1%;
+   padding: 3% 4%;
+   border-radius: 10%;
+   text-align: center;
+   color: rgb(231, 205, 238);
+   font: 1em sans-serif;
+   cursor: pointer;
+}
+.btn2{
+    background-color: rgb(156, 101, 181);
+     width: 25%;
+    margin: 1%;
+   padding: 3% 4%;
+   border-radius: 10%;
+   text-align: center;
+   color: rgb(247, 215, 252);
+   font: 1em sans-serif;
+   cursor: pointer;
+}
+.btn3{
+    background-color: rgb(94, 28, 128);
+    margin: 1%;
+   border-radius: 10%;
+   padding: 3% 4%;
+   text-align: center;
+   color: rgb(236, 204, 238);
+   font: 1em sans-serif;
+   cursor: pointer;
+}
