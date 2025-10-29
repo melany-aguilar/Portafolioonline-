@@ -1,3 +1,14 @@
+.body { margin: 0; overflow: hidden; background: rgb(255, 255, 255); }
+.star {
+  position: fixed;
+  width: 5px;
+  height: 5px;
+  background: rgb(90, 6, 113);
+  z-index: -1;
+  top: 0;
+  left: 0; 
+  pointer-events: none;
+}
 .btn1{
     background-color: rgb(125, 28, 154);
     width: 25%;
@@ -20,14 +31,3 @@
    font: 1em sans-serif;
    cursor: pointer;
 }
-.btn3{
-    background-color: rgb(94, 28, 128);
-    margin: 1%;
-   border-radius: 10%;
-   padding: 3% 4%;
-   text-align: center;
-   color: rgb(236, 204, 238);
-   font: 1em sans-serif;
-   cursor: pointer;
-}
-
